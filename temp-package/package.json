@@ -1,0 +1,20 @@
+{
+  "name": "@metaphorlism/temp-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "src/index.mjs",
+  "scripts": {
+    "dev" : "node --experimental-modules src/index.mjs",
+    "build": "babel src -d dist"
+  },
+  "keywords": ["foo", "bar"],
+  "author": "metaphorlism",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+    "@babel/preset-env": "^7.22.9"
+  }
+}
